@@ -1,7 +1,5 @@
 low = float(input("Долна граница: "))
 high = float(input("Горна граница: "))
-if low > high:
-    low, high = high, low
 
 count = 0
 for i in range(1, 11):
